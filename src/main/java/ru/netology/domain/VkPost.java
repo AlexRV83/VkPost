@@ -8,7 +8,7 @@ public class VkPost {
     private char postText;
     private String video;
     private String logo;
-    gprivate String link;
+    private String link;
 
     private Share share;
     private CountView countView;
