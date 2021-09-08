@@ -1,8 +1,8 @@
 package ru.netology.domain;
 
-public class Share {
+public class Repost {
     private int count;
-    private boolean shareIt;
+    private boolean repostIt;
 
     public int getCount() {
         return count;
@@ -12,11 +12,11 @@ public class Share {
         this.count = count;
     }
 
-    public boolean isShareIt() {
-        return shareIt;
+    public boolean isRepostIt() {
+        return repostIt;
     }
 
-    public void setShareIt(boolean shareIt) {
-        this.shareIt = shareIt;
+    public void setShareIt(boolean repostIt) {
+        this.repostIt = repostIt;
     }
 }
